@@ -103,3 +103,72 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+import streamlit as st
+
+# ===============================
+# TITLE & INTRO
+# ===============================
+st.set_page_config(page_title="Chocolate Sales Analysis", layout="centered")
+
+st.title("🍫 Chocolate Sales Analysis")
+st.subheader("BUSINESS IT2: PYTHON 2 PROJECT")
+
+st.write("""
+We chose to analyze chocolate sales data because chocolate is a widely consumed product with strong market demand.  
+By exploring this dataset, we aim to uncover trends in consumer behavior, identify best-selling products, and determine the most effective sales periods.  
+This project also helps us sharpen our data analysis skills and derive valuable business insights that can be applied in real-world contexts.
+""")
+
+# ===============================
+# INSTRUCTOR & COURSE
+# ===============================
+with st.expander("📌 Instructor & Course Information"):
+    st.markdown("""
+    - **Instructor**: Mr. Đỗ Đức Tân  
+    - **Course**: BUSINESS IT2 - Python 2 Project  
+    - **University**: Vietnamese-German University  
+    - **Semester**: Spring 2025
+    """)
+
+# ===============================
+# MEET OUR TEAM
+# ===============================
+st.subheader("👥 Meet Our Team")
+st.write("Click on the images or read more below to get to know us!")
+
+col1, col2 = st.columns(2)
+
+with col1:
+    st.image("homepage_folder/HQN.jpg", width=250, caption="Hồ Quỳnh Như")
+    st.image("homepage_folder/PNN.jpg", width=250, caption="Phạm Ngọc Như")
+
+with col2:
+    st.image("homepage_folder/HBN.jpg", width=250, caption="Hồ Bảo Ngọc")
+    st.image("homepage_folder/TP.jpg", width=250, caption="Trần Phương")
+
+# ===============================
+# FEEDBACK FORM
+# ===============================
+st.markdown("## 💬 Feedback Form")
+
+with st.form("feedback_form"):
+    name = st.text_input("Your name")
+    email = st.text_input("Your email address")
+    message = st.text_area("What do you think?")
+    send = st.form_submit_button("Send")
+    if send:
+        st.success("✅ Thank you! Your message has been received.")
+
+# ===============================
+# BACKGROUND MUSIC
+# ===============================
+st.markdown("### 🎵 Chill Background Music")
+st.markdown(
+    """
+    <audio controls autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    """,
+    unsafe_allow_html=True
+)
