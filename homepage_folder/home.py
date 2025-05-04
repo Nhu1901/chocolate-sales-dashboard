@@ -63,12 +63,16 @@ const chocolates = Array.from({length: 30}, () => {
 st.markdown("<div class='big-title'>🍫 Chocolate Sales Analysis</div>", unsafe_allow_html=True)
 st.markdown("### BUSINESS IT2: PYTHON 2 PROJECT")
 
+# ==== PROJECT DESCRIPTION ====
 st.write("""
 We chose to analyze chocolate sales data because chocolate is a widely consumed product with strong market demand.  
 By exploring this dataset, we aim to uncover trends in consumer behavior, identify best-selling products, and determine the most effective sales periods.  
 This project also helps us sharpen our data analysis skills and derive valuable business insights that can be applied in real-world contexts.
 """)
 
+st.markdown("[🔗 View Original Dataset on Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales)")
+
+# ==== INSTRUCTOR INFO ====
 with st.expander("📌 Instructor & Course Information"):
     st.write("**Instructor:** Mr. Đỗ Đức Tân")
     st.write("**Course:** Business IT2 - Python 2 Project")
