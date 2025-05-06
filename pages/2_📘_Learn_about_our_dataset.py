@@ -48,6 +48,82 @@ Based on our initial analysis, we’ve already observed some interesting trends.
 
 
 """)
+st.subheader("📚 Our Variables")
+
+st.write("""
+To gain a comprehensive understanding of chocolate sales behavior, we explored the dataset by looking into the following key variables:
+- **Product**: The name of the chocolate product sold. This helps us identify which specific items are the most popular and which might need better marketing or replacement.
+- **Amount**: The monetary value of each sale, originally in dollar format. We cleaned this column to remove the dollar sign for easier analysis and used it to calculate total revenue.
+- **Sales Person**: The employee who made the sale. This allows us to evaluate individual performance and identify top performers within the sales team.
+- **Country**: The country where the product was sold. This variable is critical for understanding regional preferences and determining which countries contribute the most to total sales.
+- **Date**: The exact date when the transaction took place. We used this column to extract additional features like `Month` and `Year` for time-based analysis.
+- **Month** (generated): Derived from the `Date` column, this helps us detect monthly trends, such as seasonal spikes in chocolate sales (e.g., during Valentine's Day or Christmas).
+- **Year** (generated): Also derived from `Date`, this variable allows us to compare performance across years and observe long-term growth patterns.
+""")
+st.markdown("----")
+st.subheader("📋 Variable Summary Table")
+
+st.markdown("""
+<style>
+    .var-table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 16px;
+    }
+    .var-table th, .var-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+    .var-table th {
+        background-color: #4B0082;
+        color: white;
+    }
+    .var-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    .var-table td:nth-child(1) {
+        font-weight: bold;
+        color: #8B0000;
+    }
+</style>
+
+<table class="var-table">
+    <tr>
+        <th>🧾 Variable</th>
+        <th>📌 Description</th>
+    </tr>
+    <tr>
+        <td>Product</td>
+        <td>Name of the chocolate product</td>
+    </tr>
+    <tr>
+        <td>Amount</td>
+        <td>Value of the sale (cleaned from $)</td>
+    </tr>
+    <tr>
+        <td>Sales Person</td>
+        <td>Employee who made the sale</td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td>Country where the sale occurred</td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>Date of the transaction</td>
+    </tr>
+    <tr>
+        <td>Month (generated)</td>
+        <td>Month extracted from Date</td>
+    </tr>
+    <tr>
+        <td>Year (generated)</td>
+        <td>Year extracted from Date</td>
+    </tr>
+</table>
+""", unsafe_allow_html=True)
+
 
 # --- FILTERS ---
 st.markdown("----")
