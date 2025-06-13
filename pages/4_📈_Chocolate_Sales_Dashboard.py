@@ -32,31 +32,49 @@ charts = [
     ("1. 🍬 Top 10 Best-Selling Products", "top_products_pie.jpg",
      "- 50% Dark Bites leads at 11.3%\n- Top 4 products >10%\n- Balanced distribution",
      """
-This pie chart displays sales proportions for the 10 best-selling chocolate products.
+The pie chart illustrates the proportion of bins shipped for the 10 high-quality-selling chocolate products, giving insight into their relative reputation.
 
-50% Dark Bites leads with 11.3%, followed by Smooth Silky Salty (10.2%), Eclairs (10.1%), and Caramel Stuffed Bars (10.1%). Drinking Coco and Spicy Special Slims are at 10.0%, while Milk Bars and Peanut Butter Cubes follow at 9.6%. White Choc and After Nines each take up 9.5%.
+Overall, the distribution is enormously even, with out a unmarried product dominating the market. However, 50% Dark Bites holds the biggest share, even as the remaining merchandise exhibit only minor variations in their proportions.
 
-The chart shows preferences are diverse and fairly even across all items.
+To begin with, 50% Dark Bites debts for the best share at eleven.3%, making it the top-selling object some of the ten. This is accompanied closely by Smooth Silky Salty (10.2%), Eclairs (10.1%), and Caramel Stuffed Bars (10.1%). All of these products exceed the ten% mark, indicating a robust consumer desire.
+
+Meanwhile, Drinking Coco and Spicy Special Slims every contribute 10.0% to the total income, putting them within the mid-range. Similarly, Milk Bars and Peanut Butter Cubes sign in identical stocks at nine.6%, barely below the 10% threshold.
+
+At the lower cease of the rating, After Nines and White Choc both make up nine.Five% of total income, although the gap between the best and lowest proportions is minimal—simply underneath 2%.
+
+In conclusion, even though 50% Dark Bites is the maximum famous product, the pie chart exhibits a fairly balanced distribution some of the top 10 first-class-sellers, suggesting that consumer alternatives are incredibly numerous across chocolate types.
      """),
 
     # BAR CHART BY COUNTRY
     ("2. 🌍 Total Revenue by Country", "revenue_by_country.jpg",
      "- Australia tops with $1.05M\n- UK & India nearly equal\n- All countries > $950K",
      """
-The bar chart compares chocolate sales across six countries.
+The bar chart compares the full sales from chocolate sales across six different nations: Australia, the UK, India, the united states, Canada, and New Zealand.
 
-Australia led with 1.05M in revenue. The UK and India followed closely, each just over 1M. The USA ranked fourth, ahead of Canada and New Zealand, which still surpassed $950K.
+It is right now obvious that Australia generated the highest revenue, at the same time as New Zealand accounted for the bottom. Despite a few variant, all nations recorded enormously excessive income figures, with revenues fluctuating inside a narrow range across the one million greenback mark.
 
-This shows strong chocolate demand in all surveyed countries.
+Specifically, Australia crowned the listing with overall revenue marginally exceeding $1.05 million. The UK and India accompanied carefully, every generating just over $1 million, indicating a sturdy and nearly equal marketplace presence. The USA ranked fourth, additionally reporting a parent in the identical variety, only barely decrease than that of India and the United Kingdom.
+
+Meanwhile, Canada and New Zealand recorded the least sales many of the six countries. Canada’s figure fell just brief of the 1,000,000 dollar threshold, while New Zealand, even though simplest barely at the back of, introduced within the lowest income average, with a total of about $950,000.
+
+In precis, the chart well-knownshows that chocolate sales are sturdy throughout all international locations provided, with Australia emerging because the most rewarding marketplace and New Zealand trailing slightly behind the relaxation. The relatively small disparity among the highest and lowest figures shows a consistently excessive call for for chocolate products in all six nations.
      """),
 
     # LINE CHART
     ("3. 📈 Monthly Sales Trend", "monthly_trend.jpg",
      "- Peaks: Feb & July\n- Lowest: March\n- Seasonal trends visible",
      """
-The line graph shows monthly chocolate box shipments from Feb to Sep 2022.
+The line graph affords the monthly fashion in chocolate container shipments from February to September 2022.
 
-Sales peaked in February (28,000) and July (26,000). March had the lowest point at 18,000. The fluctuations reflect seasonal buying trends like Valentine’s and summer promos.
+Overall, the trend suggests significant fluctuations in monthly income. The range of packing containers shipped began at a top in February, dropped sharply in March, after which experienced a slow restoration before peaking again in July, accompanied via a steady decline closer to September.
+
+In element, the very best number of boxes turned into shipped in February 2022, reaching almost 28,000 gadgets. However, this figure declined significantly in the following month, hitting a low of round 18,000 in March — the bottom point within the period found.
+
+From March onwards, sales step by step improved over the next four months. Shipments rose to approximately 19,500 in April, 21,000 in May, and 22,000 in June. This upward trend culminated in July, where income peaked once more at over 26,000 bins, marking the second one-maximum fee for the duration of the duration.
+
+However, this healing turned into short-lived, as shipments fell over again, losing to round 23,000 in August after which to simply under 20,000 by using September.
+
+In conclusion, while chocolate field shipments commenced and ended the length at excessive and coffee tiers respectively, the trend changed into characterised by means of one giant drop in early months and any other considerable decline after a mid-yr restoration.
      """),
 
     # SALESPERSON CHART
